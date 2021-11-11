@@ -1,0 +1,38 @@
+body{
+    font-family: monospace;
+}
+.column{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 36px;
+    display:flex;
+    justify-content:center;
+}
+.rules{
+    font-size: 16px;
+}
+#stats{
+    width: 480px;
+  height: 200px;
+  overflow: scroll;
+  background: white;
+  margin-top: 75px;
+    font-size:14px;
+  
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    margin-top: 100px;
+}
